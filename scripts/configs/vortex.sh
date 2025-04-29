@@ -1,0 +1,12 @@
+name="vortex"
+bound=2
+scale=2
+bg_radius=0 
+density_thresh=5
+iters=30000
+offset='0 0 0' 
+random_size=0 
+data_dir="./Data/imgs/vortsRGBa"
+nerf_model="./results/${name}"
+palette_model="./results_palette/${name}"
+style="./Data/styles/17/style_1 ./Data/styles/17/style_2"
